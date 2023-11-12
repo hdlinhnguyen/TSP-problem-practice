@@ -146,3 +146,5 @@ optimize!(model2)
 print(objective_value(model2))
 JuMP.value.(x)
 # Even better ! 3395, lower bound improved
+# still a room for improvement!!
+# 3396
